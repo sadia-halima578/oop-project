@@ -76,15 +76,7 @@ public class Swing_Main {
         frame.add(personal);
         frame.add(other);
         
-        JButton addButton = new JButton("Add Task");
-        JButton clearButton = new JButton("Clear");
-
-        addButton.setBounds(100, 250, 100, 30);
-        clearButton.setBounds(210, 250, 100, 30);
-
-        frame.add(addButton);
-        frame.add(clearButton);
-        
+      
         frame.setVisible(true);
     }
 }
